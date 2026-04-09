@@ -18,13 +18,13 @@
 
     // Move 1: A damage move with a status effect
     {
-      "id": "Precision_shot",
-      "name": "🎯 Precision shot",
-      "desc": "A very percise shot with high damage.",
-      "speed": "slow",
-      "damage": [20, 25],
-      "status": "null",
-      "statusChance": 0
+      "id": "Poison_arrow",
+      "name": "☠ Poison arrow",
+      "desc": "A medium damage arrow with a posion side effect.",
+      "speed": "medium",
+      "damage": [15, 20],
+      "status": "Poison",
+      "statusChance": 1.0
     },
 
     // Move 2: A plain fast attack
@@ -33,7 +33,7 @@
       "name": "Fast fire",
       "desc": "A volly of arrows fired fast yet weakly.",
       "speed": "fast",
-      "damage": [15, 18],
+      "damage": [10, 15],
       "status": null,
       "statusChance": 0
     },
@@ -45,19 +45,21 @@
       "desc": "Restore 10 HP and gives stat up effect",
       "speed": "slow",
       "damage": [-10, -10],
-      "status": "stat up",
-      "statusChance": 1
+      "status": "statup",
+      "statusChance": 1.0,
+      "statTarget": "accuracy"
+
     },
 
     // Move 4: A pure status move (no damage)
     {
-      "id": "Poison_arrow",
-      "name": "☠ Poison arrow",
-      "desc": "Scrambles the enemy's brain. No damage, just chaos.",
+      "id": "warning_shot",
+      "name": "➵ Warning shot",
+      "desc": "A warning shot that paralyzes target.",
       "speed": "medium",
       "damage": [0, 0],
-      "status": "Poison",
-      "statusChance": 1.0
+      "status": "paralyze",
+      "statusChance": 1.0,
     }
 
     // Move 5: more
@@ -66,7 +68,7 @@
       "name": "🎯 volley fire",
       "desc": "A high damage many arrow volley.",
       "speed": "slow",
-      "damage": [25, 30],
+      "damage": [20, 25],
       "status": "null",
       "statusChance": 0
     },
