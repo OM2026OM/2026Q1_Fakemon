@@ -35,7 +35,7 @@
       "desc": "A lightning-fast claw swipe. No frills.",
       "speed": "fast",
       "damage": [300, 300],
-      "status": "paralize",
+      "status": "paralyze",
       "statusChance": 0.20
     },
 
