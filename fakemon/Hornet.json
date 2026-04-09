@@ -30,7 +30,7 @@
       "name": "silkshot",
       "desc": "WHO GAVE IT A GU-",
       "speed": "fast",
-      "damage": [18, 24],
+      "damage": [25, 29],
       "status": null,
       "statusChance": 0
     },
@@ -43,7 +43,7 @@
       "damage": [-25, -25],
       "status": null,
       "statusChance": 0
-    },
+    }
 
 
   ]
