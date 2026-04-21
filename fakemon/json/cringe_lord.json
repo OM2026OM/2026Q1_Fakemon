@@ -1,0 +1,74 @@
+{
+  "id":          "cringe_lord",
+  "name":        "Cringelord",
+  "createdBy":   "The Internet",
+  "emoji":       "💀",
+  "type":        "Normal",
+  "description": "A cursed creature born from expired memes and WiFi radiation. Lives in your parents' basement. Has never touched grass. Its cry sounds like a TikTok notification at 3am.",
+  "hp":       69,
+  "power":    420,
+  "speed":    1,
+  "defense":  0,
+  "accuracy": 9,
+  "moves": [
+    {
+      "id":           "ratio",
+      "name":         "💬 Ratio",
+      "desc":         "Posts 'ratio' with no context. Deals massive psychic damage. 40% chance the opponent simply doesn't recover emotionally.",
+      "speed":        "fast",
+      "damage": [30, 50],
+      "status":       "confuse",
+      "statusChance": 0.4
+    },
+    {
+      "id":           "sigma_stare",
+      "name":         "😐 Sigma Stare",
+      "desc":         "Stares into the opponent's soul while 'Bury the Light' plays in the background. No thoughts. Head empty. Lowkey hits different.",
+      "speed":        "medium",
+      "damage": [20, 35],
+      "status":       "statdwn",
+      "statusChance": 1.0,
+      "statTarget":   "speed"
+    },
+    {
+      "id":           "touch_grass",
+      "name":         "🌿 Touch Grass",
+      "desc":         "Cringelord reluctantly goes outside. The sun heals them but it physically hurts. Restores 25 HP but leaves a burn debuff on self.",
+      "speed":        "slow",
+      "damage": [-25, -25],
+      "status":       "burn",
+      "statusChance": 0.9
+    },
+    {
+      "id":           "npc_arc",
+      "name":         "🧠 NPC Arc",
+      "desc":         "Enters main character mode. Puts on a playlist, walks in slow motion, sharply raises ATK. Absolutely nobody asked.",
+      "speed":        "fast",
+      "damage": [0, 0],
+      "status":       "statup",
+      "statusChance": 1.0,
+      "statTarget":   "atk"
+    },
+    {
+      "id":           "skill_issue",
+      "name":         "🎮 Skill Issue",
+      "desc":         "Tells the opponent 'skill issue' while losing. Lowers opponent's defense stat through sheer condescension.",
+      "speed":        "medium",
+      "damage": [0, 0],
+      "status":       "statdwn",
+      "statusChance": 1.0,
+      "statTarget":   "defense"
+    },
+    {
+      "id":           "its_giving",
+      "name":         "✨ It's Giving Chaos",
+      "desc":         "Slaps the opponent with a chaotic aura that's giving unhinged energy. May poison AND confuse. No further explanation.",
+      "speed":        "slow",
+      "damage": [15, 25],
+      "statuses": [
+        { "status": "poison",  "statusChance": 0.6 },
+        { "status": "confuse", "statusChance": 0.69 }
+      ]
+    }
+  ]
+}
