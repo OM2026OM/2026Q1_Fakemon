@@ -1,14 +1,14 @@
 # Fakemon Content Check Report
 
-**Generated:** 2026-04-22 18:29:59  
-**Files scanned:** 87  
-**Files flagged:** 27  
+**Generated:** 2026-04-22 18:30:49  
+**Files scanned:** 88  
+**Files flagged:** 28  
 
 ---
 
 > ⚠️ **Issues found.** Review each file below.
 >
-> 🔧 **AUTO-SANITIZE** categories (replaced with `?` on `--apply`): Flag/Nationalism
+> 🔧 **AUTO-SANITIZE** categories (replaced with `?` on `--apply`): Flag/Nationalism, Profanity
 > 👀 **REVIEW ONLY** categories (teacher must decide): Bullying/Targeting, ID/Filename, Political
 >
 > To auto-sanitize eligible content, run:
@@ -17,6 +17,16 @@
 > ```
 
 ## ⚠️ Needs Teacher Review — Content Flags
+
+### 🚩 `candiru.json`
+
+**3 issue(s)**
+
+| Line | Category | Action | Matched / Message | Full Line |
+|------|----------|--------|-------------------|-----------|
+| — | 📛 ID/Filename | REVIEW ONLY | `Near-miss — filename is "candiru.json" but id is "candiru1_1" (82% similar). Did you mean id: "candiru"?` | `` |
+| 16 | 🤬 Profanity | AUTO-SANITIZE | `piss` | `"name": "don't piss",` |
+| 36 | 😠 Bullying/Targeting | REVIEW ONLY | `weak` | `"desc": "Swims up the water Spout so it can find your weak point."` |
 
 ### 🚩 `hi.json`
 
