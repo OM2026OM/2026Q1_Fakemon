@@ -1,7 +1,7 @@
 # Fakemon Content Check Report
 
-**Generated:** 2026-04-23 18:53:53  
-**Files scanned:** 95  
+**Generated:** 2026-04-23 19:01:29  
+**Files scanned:** 97  
 **Files flagged:** 33  
 
 ---
